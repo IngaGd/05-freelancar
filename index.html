@@ -5,8 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancer</title>
+    <style>
+        header {
+            display: inline-block;
+            width: 1000px;
+            margin-top: 150px;
+            margin-left: calc((100% - 1000px) / 2); /*--must be spaces between math operators*/
+        }
+
+        header>div {
+            float: right;
+        }
+
+        header>nav {
+            float: right;
+        }
+
+        .icon {
+            float: left;
+        }
+
+        main {
+            display: inline-block;
+            width: 1000px;
+            margin-top: 10px;
+            margin-left: calc((100% - 1000px) / 2);
+        }
+
+        img {
+            float: right;
+            width: 600px;
+        }
+
+    </style>
 </head>
 <body>
-    CONTENT
+    <header>
+        <div class="icon">
+            Left icon
+        </div>
+        <nav>
+            LINKS
+        </nav>
+        <div>SEARCH FORM</div>
+    </header>
+    <main>
+        <div>
+            CONTENT
+        </div>
+        <img src="./img/Freelancer.webp" alt="Freelancer">
+    </main>
 </body>
 </html>
